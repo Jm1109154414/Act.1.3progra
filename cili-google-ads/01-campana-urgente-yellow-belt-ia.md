@@ -5,7 +5,7 @@
 **Ventana de campaña activa:** ~26 jun – 14 jul (≈19 días) — definir fecha de corte/pausa con margen de 1-2 días antes del inicio.
 **Horario del curso:** 4:00 p.m. – 7:00 p.m., jueves (16, 23, 30 jul / 6, 13 ago)
 **Oferta:** Certificación Yellow Belt (Lean Sigma) + módulo de Inteligencia Artificial aplicada a mejora continua — combo, avalado por CSSC.
-**Conversión objetivo:** clic en WhatsApp (33 1122 2109) desde una página del sitio de CILI (no click-to-chat directo, por requisito de landing page de Google Ads Search).
+**Conversión objetivo:** clic en WhatsApp (33 1122 2109) desde una página del sitio (no click-to-chat directo, por requisito de landing page de Google Ads Search).
 **Precio:** ⏳ **pendiente — me lo pasas y lo agrego al anuncio y a este documento.**
 **Modalidad:** ⏳ pendiente confirmar (el flyer no especifica online/presencial — asumo virtual en vivo dado el horario vespertino y la ausencia de sede en el flyer; **confirmar antes de escribir el anuncio final**, porque cambia el alcance geográfico útil).
 
@@ -13,19 +13,20 @@
 
 ## 1. Landing page (destino del clic)
 
-> El destino confirmado es **una página del sitio cili.org.mx** (no click-to-WhatsApp directo), con botón de WhatsApp en la página para capturar el contacto.
-
 - **Candidata más fuerte ya existente:** `https://cili.org.mx/lean-sigma-yellow-belt-certification` (página específica de certificación Yellow Belt detectada en el sitio).
-- [ ] **Verificar manualmente** si esa página ya incluye el combo "+IA" del flyer. Si no lo incluye, hay 2 opciones:
-  1. Pedir a CILI que actualice esa página con el módulo de IA y las fechas de julio/agosto antes de lanzar (ideal, 1 día de trabajo para ellos).
-  2. Lanzar igual con esa página como destino y que el cierre de oferta (combo + fechas) se confirme por WhatsApp — funciona pero pierde algo de congruencia anuncio→página (afecta Quality Score y conversión).
+- 🔴 **Riesgo confirmado (no solo hipótesis):** revisé el contenido indexado de esa página y describe el Yellow Belt estándar — **no menciona el módulo de IA**. Si el anuncio promete "+IA" y la página de destino no lo respalda, hay 2 problemas: (a) el usuario llega confundido y no convierte, (b) Google Ads puede penalizar la relevancia anuncio→página (Quality Score) o, en casos de discrepancia fuerte, rechazar el anuncio por mensaje inconsistente con el destino. Opciones:
+  1. **Recomendada:** pedir a CILI que agregue un párrafo/sección con el módulo de IA y las fechas de julio/agosto a esa página antes de lanzar (cambio rápido, no requiere rediseño).
+  2. Si no da tiempo para mañana: lanzar igual, pero bajar el énfasis de "+IA" en el título principal del anuncio y dejarlo solo en una descripción secundaria, para no prometer en el anuncio algo que la página no muestra todavía.
 - [ ] Confirmar que la página tiene un botón/widget de WhatsApp visible y funcional (clic medible).
+- [x] Confirmado por investigación: los instructores son Master Black Belts con **+15 años de experiencia** (dato real, no solo asunción) — usar con confianza en callouts/anuncios.
 
 ## 2. Tracking de conversión
 
 - [ ] Configurar en Google Ads/GA4 el evento de **clic en enlace de WhatsApp** (`wa.me` o `api.whatsapp.com`) como conversión — esto se hace con un trigger de "clic en enlace saliente" en Google Tag Manager, sin necesidad de formulario.
 - [ ] Si no hay GTM instalado en el sitio, alternativa rápida para lanzar mañana: usar **extensión de llamada** o medir conversiones por clics totales mientras se instala el tracking correcto (no ideal, pero no bloquea el lanzamiento).
 - [ ] Confirmar con CILI si pueden dar de alta el evento de WhatsApp en GTM antes de mañana; si no, lanzar de todos modos y arreglar tracking en paralelo (es más urgente vender cupo que tener tracking perfecto desde el día 1).
+- [ ] **Truco de tracking sin depender de GTM:** que el botón/enlace de WhatsApp de esa página lleve un **mensaje prellenado** distinto al de otros canales, ej. `https://wa.me/523311222109?text=Hola%2C%20vengo%20de%20Google%20y%20quiero%20información%20del%20curso%20Yellow%20Belt%20%2B%20IA`. Así, aunque no haya tracking técnico listo, el equipo de CILI puede contar a simple vista cuántos leads de WhatsApp dicen "vengo de Google" — válido como medición manual mientras se instala el tracking real.
+- [ ] **UTM en la URL final del anuncio** (ej. `?utm_source=google&utm_medium=cpc&utm_campaign=yellowbelt_ia_jul26`) para poder distinguir este tráfico en Analytics aunque la conversión final ocurra fuera del sitio (en WhatsApp).
 
 ## 3. Palabras clave (listas para cargar)
 
@@ -77,12 +78,13 @@
 ## 6. Extensiones
 
 - Extensión de llamada (si hay línea telefónica, además de WhatsApp).
-- Sitelinks: página de certificación Yellow Belt, página "Quiénes somos", otras certificaciones (Green/Black Belt) para quien no encaje en el timing de julio.
+- Sitelinks: página de certificación Yellow Belt, página "Quiénes somos", otras certificaciones (Green/Black Belt — nota: Green Belt requiere haber completado Yellow Belt antes, útil como mensaje de upsell a futuro) para quien no encaje en el timing de julio.
 - Callouts: "Cupo Limitado", "Certificación Internacional CSSC", "+15 Años de Experiencia", "Sesiones 100% en Vivo".
+- [ ] **Revisar al configurar la campaña** si la cuenta tiene disponible alguna extensión de "mensaje/clic a WhatsApp" directo dentro del anuncio de Búsqueda (Google las habilita por país/vertical y cambian con el tiempo) — si está disponible, úsala además de la URL final obligatoria; reduce fricción sin violar el requisito de tener una landing page real.
 
 ## 7. Configuración de campaña
 
-- **Tipo:** Search, conversión por clic en WhatsApp desde la página de CILI.
+- **Tipo:** Search, conversión por clic en WhatsApp.
 - **Geografía:** Nacional México si la modalidad es virtual (confirmar); si resulta ser presencial, restringir a Jalisco/Zona Metropolitana de Guadalajara.
 - **Idioma:** Español.
 - **Presupuesto:** por definir contigo — dado lo corto de la ventana (≈19 días), recomendado concentrar presupuesto diario más alto que una campaña evergreen, ya que el valor de un clic después del 14-15 de julio cae a casi cero.
