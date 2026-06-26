@@ -7,7 +7,7 @@
 **Oferta:** Certificación Yellow Belt (Lean Sigma) + módulo de Inteligencia Artificial aplicada a mejora continua — combo, avalado por CSSC.
 **Conversión objetivo:** clic en WhatsApp (33 1122 2109) desde una página del sitio (no click-to-chat directo, por requisito de landing page de Google Ads Search).
 **Precio:** ⏳ **pendiente — me lo pasas y lo agrego al anuncio y a este documento.**
-**Modalidad:** ⏳ pendiente confirmar (el flyer no especifica online/presencial — asumo virtual en vivo dado el horario vespertino y la ausencia de sede en el flyer; **confirmar antes de escribir el anuncio final**, porque cambia el alcance geográfico útil).
+**Modalidad:** ✅ Confirmada — **100% virtual / en línea**. Alcance geográfico nacional sin restricción (no depende de una sede física).
 
 ---
 
@@ -37,22 +37,46 @@ Investigación de competidores directos de Yellow Belt en México:
 
 ### 0.4 Qué falta resolver antes de construir la campaña (el "antes")
 1. Precio definitivo (pendiente, lo confirma el usuario) → define cuál de los dos mensajes de 0.3 se usa.
-2. Modalidad (virtual/presencial confirmada) → define alcance geográfico.
-3. Resolución del riesgo de landing page sin mención de IA (ver Sección 1) → define si el anuncio puede usar "+IA" en el título principal desde el día 1 o solo en descripción secundaria.
+2. ~~Modalidad~~ → ✅ resuelto: virtual/en línea, nacional.
+3. ~~Riesgo de landing page sin mención de IA~~ → ✅ resuelto: se construye una **landing dedicada para este anuncio** en vez de usar la página existente (ver Sección 1 actualizada) — elimina el riesgo de Quality Score de raíz.
 4. Confirmar tracking mínimo viable de WhatsApp (ver Sección 2) → define qué se reporta como conversión desde el lanzamiento.
+5. **Nuevo pendiente:** ¿quién tiene acceso para publicar una página nueva en cili.org.mx hoy/esta noche? Esto es lo único que decide si la landing dedicada está lista para el lanzamiento de mañana o si hay que lanzar el primer día con la página existente mientras se publica la dedicada en paralelo.
 
-Una vez resueltos estos 4 puntos, el resto de la construcción en Google Ads (Secciones 3–8) es mecánica, no requiere más decisiones de estrategia.
+Una vez resueltos estos puntos, el resto de la construcción en Google Ads (Secciones 3–8) es mecánica, no requiere más decisiones de estrategia.
 
 ---
 
-## 1. Landing page (destino del clic)
+## 1. Landing page (destino del clic) — ✅ DECISIÓN: landing dedicada para este anuncio
 
-- **Candidata más fuerte ya existente:** `https://cili.org.mx/lean-sigma-yellow-belt-certification` (página específica de certificación Yellow Belt detectada en el sitio).
-- 🔴 **Riesgo confirmado (no solo hipótesis):** revisé el contenido indexado de esa página y describe el Yellow Belt estándar — **no menciona el módulo de IA**. Si el anuncio promete "+IA" y la página de destino no lo respalda, hay 2 problemas: (a) el usuario llega confundido y no convierte, (b) Google Ads puede penalizar la relevancia anuncio→página (Quality Score) o, en casos de discrepancia fuerte, rechazar el anuncio por mensaje inconsistente con el destino. Opciones:
-  1. **Recomendada:** pedir a CILI que agregue un párrafo/sección con el módulo de IA y las fechas de julio/agosto a esa página antes de lanzar (cambio rápido, no requiere rediseño).
-  2. Si no da tiempo para mañana: lanzar igual, pero bajar el énfasis de "+IA" en el título principal del anuncio y dejarlo solo en una descripción secundaria, para no prometer en el anuncio algo que la página no muestra todavía.
-- [ ] Confirmar que la página tiene un botón/widget de WhatsApp visible y funcional (clic medible).
-- [x] Confirmado por investigación: los instructores son Master Black Belts con **+15 años de experiencia** (dato real, no solo asunción) — usar con confianza en callouts/anuncios.
+**Decisión tomada:** en vez de usar `https://cili.org.mx/lean-sigma-yellow-belt-certification` (que no menciona el módulo de IA — riesgo de Quality Score), se construye una **página nueva y dedicada solo para esta campaña**, con un único objetivo: que el visitante entienda la oferta en 5 segundos y haga clic en WhatsApp. Sin menú de navegación completo del sitio, sin distracciones — solo esta oferta y el CTA.
+
+- [ ] **Bloqueante real para mañana:** confirmar quién tiene acceso (tú o el equipo de CILI) para publicar una página nueva en el dominio `cili.org.mx` hoy/esta noche. Si nadie puede publicarla a tiempo, plan B: lanzar el día 1 apuntando a la página existente con el énfasis de IA bajado en el anuncio, y mover el tráfico a la landing dedicada en cuanto esté lista (cambiar solo la URL final, sin tocar nada más de la campaña).
+- [ ] Slug sugerido: `cili.org.mx/yellow-belt-ia-julio2026` (o el que el equipo de CILI prefiera, siempre dentro del dominio principal — mantiene la confianza de marca/SEO, a diferencia de usar una herramienta externa de landing pages).
+
+### 1.1 Contenido exacto de la landing dedicada (listo para pasar a diseño/maquetación)
+
+1. **Hero (arriba del scroll):**
+   - Título: "Certificación Yellow Belt + Inteligencia Artificial Aplicada"
+   - Subtítulo: "La certificación de entrada a Lean Six Sigma, ahora con IA aplicada a mejora continua — aval internacional CSSC."
+   - Badge/medalla: "Cupo Limitado — Inicia 16 de Julio 2026"
+   - Botón CTA grande: "Escríbenos por WhatsApp" → enlaza al `wa.me` con mensaje prellenado de la Sección 2.
+
+2. **Bloque de datos clave (tabla o íconos, estilo CILI con tablas claras):**
+   - Modalidad: 100% en línea / virtual en vivo.
+   - Fechas: jueves 16, 23, 30 de julio y 6, 13 de agosto de 2026.
+   - Horario: 4:00 p.m. – 7:00 p.m.
+   - Certificación: aval internacional CSSC (Council for Six Sigma Certification).
+   - Precio: [PENDIENTE — insertar en cuanto se confirme].
+
+3. **Bloque de diferenciador (texto corto, 2-3 líneas):** mensaje de la Sección 0.1 — por qué esta edición incluye IA y por qué eso importa (no es solo otro Yellow Belt).
+
+4. **Bloque de credibilidad:** "Instructores Master Black Belt con +15 años de experiencia" + logo/medalla CSSC. (Opcional, si CILI quiere reforzar marca institucional: mención breve de su track record general, sin forzar la cifra de $121M que es más relevante para Implementaciones que para esta certificación individual).
+
+5. **Manejo de objeción rápida (1-2 bullets):** "¿Ya tienes experiencia en mejora continua?" → "Yellow Belt es el nivel de entrada, no necesitas experiencia previa." / "¿Es 100% en línea?" → "Sí, sesiones en vivo por videollamada, jueves de 4 a 7 p.m."
+
+6. **CTA final (footer, repetido):** botón de WhatsApp igual al del hero — repetir el CTA es buena práctica en landing pages cortas de conversión.
+
+- [x] Confirmado por investigación: los instructores son Master Black Belts con **+15 años de experiencia** (dato real, no solo asunción) — usar con confianza en la landing y en los anuncios.
 
 ## 2. Tracking de conversión
 
@@ -130,7 +154,7 @@ Una vez resueltos estos 4 puntos, el resto de la construcción en Google Ads (Se
 ## 7. Configuración de campaña
 
 - **Tipo:** Search, conversión por clic en WhatsApp.
-- **Geografía:** Nacional México si la modalidad es virtual (confirmar); si resulta ser presencial, restringir a Jalisco/Zona Metropolitana de Guadalajara.
+- **Geografía:** Nacional México (modalidad virtual confirmada, sin restricción por sede física).
 - **Idioma:** Español.
 - **Presupuesto:** por definir contigo — dado lo corto de la ventana (≈19 días), recomendado concentrar presupuesto diario más alto que una campaña evergreen, ya que el valor de un clic después del 14-15 de julio cae a casi cero.
 - **Puja:** Maximizar clics o Maximizar conversiones desde el día 1 (no hay tiempo para fase de aprendizaje larga); revisar diario, no semanal, dado lo corto del plazo.
@@ -138,8 +162,8 @@ Una vez resueltos estos 4 puntos, el resto de la construcción en Google Ads (Se
 
 ## 8. Checklist de lanzamiento — pasos literales en Google Ads (mañana)
 
-- [ ] 1. Confirmar landing page final (sección 1) y que el botón de WhatsApp funcione en móvil y desktop.
-- [ ] 2. Confirmar precio y modalidad (pendientes) y actualizar los copys de la sección 5.
+- [ ] 1. Publicar la landing dedicada (sección 1.1) en `cili.org.mx` y confirmar que el botón de WhatsApp funcione en móvil y desktop. Si no está lista a tiempo, usar la página existente como plan B (sección 1) y migrar la URL final en cuanto la dedicada esté publicada.
+- [ ] 2. Confirmar precio (pendiente) y actualizar los copys de la sección 5 y el bloque de precio de la landing (sección 1.1).
 - [ ] 3. Entrar a la cuenta de Google Ads existente de CILI.
 - [ ] 4. Crear campaña nueva tipo **Búsqueda**, conversión = "Visitas a la página" + evento de clic WhatsApp (o el proxy de conversión disponible si el tracking de WhatsApp no está listo aún).
 - [ ] 5. Configurar geografía, idioma y presupuesto diario (sección 7).
