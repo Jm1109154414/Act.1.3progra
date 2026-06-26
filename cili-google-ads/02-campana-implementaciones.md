@@ -36,8 +36,9 @@
 
 ### 1.2 Redes sociales (Instagram / Facebook)
 - [x] Localizadas: Instagram `@cili_institute` (~1,034 seguidores, 508 posts), Facebook `CILI.Institute`.
-- [ ] **Bloqueado:** Instagram y Facebook también devolvieron 403 al fetch automatizado — no pude analizar directamente paleta de colores, formatos (reel/carrusel/foto) ni frecuencia de posteo. (Nota: se confirmó parcialmente la paleta de marca con un flyer real, ver `00-checklist-maestro.md`).
+- [ ] **Bloqueado:** Instagram y Facebook también devolvieron 403 al fetch automatizado — no pude analizar directamente paleta de colores, formatos (reel/carrusel/foto) ni frecuencia de posteo.
 - [ ] **Pendiente (acción tuya o mía si me compartes acceso/capturas):** revisar manualmente 10-15 posts recientes en IG/FB para confirmar:
+  - Paleta de colores de marca (para que los visuales de los anuncios de Display/Demand Gen no choquen con la identidad).
   - Tono de voz real (formal/cercano), si usan testimonios, si muestran caras de instructores/alumnos.
   - Qué contenido tiene más engagement (suele ser buena pista de qué ángulo de anuncio funciona).
 
@@ -45,6 +46,8 @@
 - [x] Competidores directos identificados: **ICIL**, **Lean Six Sigma Institute / México**, **CILSS Consulting**, **International Lean Six Sigma (ILSSI)**.
 - [x] Referencia de precio de mercado (cursos, no implementación): Yellow Belt ~$10,000 MXN en otras instituciones (ej. UDEM).
 - [x] Todos compiten por keywords genéricas de "certificación Lean Six Sigma" — oportunidad: diferenciar campaña hacia **"implementación con resultados medibles"**, no "curso/certificado", porque ahí hay menos competencia directa y mejor alineación con el objetivo de negocio.
+- [x] **Inteligencia competitiva adicional:** Lean Six Sigma Institute México (LSSI) declara **+$250M USD en ahorros** desde 1998 (cifra mayor a la de CILI, $121M) y trabaja con marcas como Fender, Amazon, Apple. No implica cambiar el mensaje de CILI, pero sí evitar presentar el "$121M" como si fuera la cifra más alta del mercado — el diferenciador real de CILI sigue siendo el modelo de apropiación (PMS), no el tamaño de la cifra.
+- ⚠️ **Limitación de research:** no fue posible ver anuncios reales (pagados) de la competencia en Google — la herramienta de búsqueda disponible no muestra resultados patrocinados con su etiqueta de "Anuncio". Para un benchmark real de copys/precios pagados, se necesitaría revisar manualmente en una ventana de incógnito o usar una herramienta especializada (SEMrush, SpyFu) — no disponible en esta sesión.
 
 ---
 
